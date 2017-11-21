@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './components/menu';
+import Marker from './components/marker';
 
 class App extends React.Component {
 
@@ -29,6 +30,7 @@ class App extends React.Component {
         return (
             <div className="app">
                 <Menu />
+                <Marker x={300} />
             </div>
             
         );
